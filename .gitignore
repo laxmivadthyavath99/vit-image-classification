@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python environments
+.env
+.venv/
+env/
+venv/
+*.env
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints, weights, and outputs
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+*.tflite
+*.safetensors
+*.pkl
+*.bin
+model/
+outputs/
+test_outputs/
+cache/
+
+# Logs
+*.log
+
+# Hugging Face cache (project level)
+huggingface/
